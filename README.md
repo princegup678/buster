@@ -19,11 +19,11 @@ arg2= location of the word_list
 arg3 arg4 arg5 ..... =  txt html php ,etc.        
 
 
-      Eg : python .py https://example.com/  /root/Desktop/wordlist.txt
+      Eg : python buster.py https://example.com/  /root/Desktop/wordlist.txt
    This example will find the directories present.
 
 
-    Eg :  python .py https://example.com/  /root/Desktop/wordlist.txt  txt html php js css
+    Eg :  python buster.py https://example.com/  /root/Desktop/wordlist.txt  txt html php js css
 This example will find both directories as well as files with extension txt,html,php,js,css.
 More parameters can be added representing different file type.
 
