@@ -66,7 +66,7 @@ prYellow(stinfo)
 prYellow(sep)
 f=open(c,"r")  #opening the wordlist file using given path
 for i in f:
-    pool.apply_async(worker, (item,))
+    pool.apply_async(thread_requests, (i,))
 f.close()
 pool.close()
 pool.join()
